@@ -1,0 +1,104 @@
+# Teddy's Wealthome - Real Estate Website
+
+A modern, responsive real estate landing page designed to showcase property listings, highlight renovation services, and feature customer testimonials. Built with HTML, CSS, and JavaScript.
+
+![Wealthome Preview](./assets/images/hero-preview.png)
+
+## 🏠 Features
+
+- **Responsive Design** – Works seamlessly on mobile, tablet, and desktop.
+- **Interactive Search Bar** – Filter by buy/sell/rent, property type, and location.
+- **Property Cards** – Display image, price, address, and key details (beds, baths, sqft).
+- **Favorite Button** – Click the heart icon to save favorite listings (UI toggle).
+- **Feature Sections** – Highlight renovation specialties with icon lists.
+- **Video Section** – Placeholder for a promotional video with animated play button.
+- **Customer Stories** – Testimonials with star ratings and avatars.
+- **Sticky Header** – Changes background on scroll for better visibility.
+- **Mobile Navigation** – Collapsible hamburger menu for small screens.
+- **Smooth Scroll** – For internal anchor links.
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Semantic markup
+- **CSS3** – Custom properties, Flexbox, Grid, Animations
+- **JavaScript (ES6)** – DOM manipulation, event handling, scroll effects
+- **Google Fonts** – Montserrat font family
+- **Google Material Symbols** – Icon library
+
+## 📁 Folder Structure
+
+teddys-wealthome/
+├── index.html
+├── README.md
+├── favicon.svg
+└── assets/
+├── css/
+│ └── style.css
+├── js/
+│ └── script.js
+└── images/
+├── logo.png
+├── hero.png
+├── bg-pattern.png
+├── property-1.jpg ... property-8.jpg
+├── feature-banner-1.jpg
+├── feature-banner-2.jpg
+├── video-card.jpg
+├── avatar-1.jpg ... avatar-4.jpg
+├── story-1.jpg ... story-6.jpg
+├── story-avatar-1.jpg ... story-avatar-6.jpg
+├── facebook.svg
+├── twitter.svg
+└── insta.svg
+
+## 🚀 How to Run
+
+1. **Clone or download** this repository to your local machine.
+2. Make sure all files and folders maintain the structure shown above.
+3. Open `index.html` in any modern web browser (Chrome, Firefox, Edge).
+4. No server or build tools required – it's a static website.
+
+## 🎨 Customization
+
+### Changing Content
+
+- **Property Cards** – Edit the HTML inside `.property-list` to update images, prices, and details.
+- **Customer Names** – Replace the `<h3>` text inside `.story-card` elements.
+- **Feature Texts** – Modify the paragraphs and list items in the `#FEATURE` sections.
+- **Footer Info** – Update contact email, address, and social media links.
+
+### Styling
+
+- All colors, fonts, and spacing are defined in `assets/css/style.css` using CSS custom properties (`:root`). Change values there for global updates.
+
+### Images
+
+- Replace images in `assets/images/` with your own (keep the same filenames or update `src` in HTML).
+
+## 📄 JavaScript Functionality
+
+| Feature          | Description                                                  |
+| ---------------- | ------------------------------------------------------------ |
+| Mobile Menu      | Toggles `.active` class on navbar and hamburger icon.        |
+| Header Scroll    | Adds background when scrolled >50px.                         |
+| Favorite Buttons | Toggle `active` class on heart icons (event delegation).     |
+| Smooth Scroll    | Enables smooth scrolling for anchor links starting with `#`. |
+
+## 📸 Screenshots
+
+> _Add screenshots of the website here (desktop and mobile view)._
+
+## 🙏 Credits
+
+- **Design & Development:** Teddy S.
+- **Icons:** [Google Material Symbols](https://fonts.google.com/icons)
+- **Fonts:** [Google Fonts - Montserrat](https://fonts.google.com/specimen/Montserrat)
+- **Images:** Placeholder images (replace with your own licensed images)
+
+## 📜 License
+
+This project is created for educational/personal use. You are free to modify and use it as a template, but please give appropriate credit.
+
+---
+
+**© 2026 Teddy's Wealthome. All rights reserved.**
